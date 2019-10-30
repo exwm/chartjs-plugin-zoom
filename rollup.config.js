@@ -24,7 +24,7 @@ module.exports = [
 			name: 'ChartZoom',
 			file: `dist/${pkg.name}.js`,
 			banner: banner,
-			format: 'umd',
+			format: 'iife',
 			indent: false,
 			globals: {
 				'chart.js': 'Chart',
@@ -45,7 +45,7 @@ module.exports = [
 			name: 'ChartZoom',
 			file: `dist/${pkg.name}.min.js`,
 			banner: banner,
-			format: 'umd',
+			format: 'iife',
 			indent: false,
 			globals: {
 				'chart.js': 'Chart',
